@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestScript.FT_TC_001Test">
+        <methods>
+          <include name="signingOutfromthepage"/>
+          <include name="closingTheApplication"/>
+          <include name="vERIFY_THAT_USER_CLICK_ON_THE_DOWNWARD_BUTTON_AND_IT_SHOULD_DISPLAY_ALL_THE_MODULE"/>
+          <include name="navigatingToApplication"/>
+          <include name="launchingBrowser"/>
+        </methods>
+      </class> <!-- TestScript.FT_TC_001Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
